@@ -24,13 +24,13 @@ h1 {
 .loader {
   width: 32px;
   height: 90px;
-  display: block;
+  /* 
+    display: none; to hide the loader
+  */
+  display: none;
   position: fixed;
   top: 50%;
-  bottom: 0;
   left: 50%;
-  right: 0;
-  transform: translate(-50%, -50%);
   border-radius: 50% 50% 0 0;
   border-bottom: 10px solid #ff3d00;
   background-color: rgb(255, 255, 255);
