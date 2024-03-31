@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
+
 html {
   box-sizing: border-box;
 }
@@ -5,4 +7,5 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  font-family: "Cinzel Decorative", sans-serif;
 }
