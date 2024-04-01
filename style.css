@@ -115,10 +115,21 @@ h1 {
 
 /* Image container */
 .image-container {
-  margin: 10px 35%;
+  margin: 10px 30%;
 }
 
 .image-container img {
   width: 100%;
   margin-top: 5px;
+}
+
+/* Media Query: Large Smartphone */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
 }
