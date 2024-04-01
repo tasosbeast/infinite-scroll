@@ -25,7 +25,7 @@ h1 {
   width: 32px;
   height: 90px;
   /* 
-    display: none; to hide the loader
+    display: block; to show the loader
   */
   display: none;
   position: fixed;
@@ -111,4 +111,14 @@ h1 {
     background-position: -36px -36px;
     background-size: 80px 80px;
   }
+}
+
+/* Image container */
+.image-container {
+  margin: 10px 35%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 5px;
 }
