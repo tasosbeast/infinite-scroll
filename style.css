@@ -27,7 +27,7 @@ h1 {
   /* 
     display: block; to show the loader
   */
-  display: none;
+  display: block;
   position: fixed;
   top: 50%;
   left: 50%;
